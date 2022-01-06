@@ -1,4 +1,4 @@
-FROM appsvc/rubybase:2.6.2
+FROM appsvc/rubybase
 LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
 
 COPY init_container.sh /bin/
